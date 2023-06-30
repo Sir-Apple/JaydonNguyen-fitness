@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jaydon Nguyen fitness</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="shortcut icon" type="image/png" href="images/JaydonNguyenAvatar.png">
+	<script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if (revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add('active');
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+	<div class="hero-header">
+		<div class="wrapper">
+			<header>
+				<div class="header-container">
+					<div class="logo">
+						<div class="logo-text">Jaydon Nguyen</div>
+					</div>
+					<nav>
+						<div class="togglebtn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<ul class="navlinks">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#booking">Booking</a></li>
+						</ul>
+					</nav>
+				</div>			
+			</header>
+			<section id="home">
+				<div class="container reveal">
+					<div class="hero-pic">
+						<img src="images/JaydonNguyenAvatar.png" alt="profile pic">
+					</div>
+					<div class="hero-text">
+						<h2>Hello, I'm Jaydon Nguyen, welcome to my fitness booking website.</h2>
+						<div class="btn-group">
+							<a href="https://www.fitnessfirst.com.au/personal-trainers/page-or-personal-trainer-or-jaydon-nguyen/" class="btn active">My QV page</a>
+						</div>
+					</div>		
+				</div>
+			</section>
+			<section id="about">
+				<div class="hero-text">
+					<h1 style="margin-top: 125px;">About me</h1>
+					<p>I am currently a personal trainer at QV Platinum, Melbourne.</p> <br>
+					<p style="font-size: 0.8rem; color: whitesmoke; margin-top: 20px; font-style: italic;">Scroll down for more</p>
+					<div class="scrolldown">
+						<span><p></p></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="card-container reveal">
+						<div class="card" style="--clr: #f78300;">
+							<div class="imgBx">
+								<img src="images/qualification.png">
+							</div>
+							<div class="content">
+								<h2>Qualifications</h2>
+								<p style="font-size: 1rem; color: whitesmoke;">Certificate IV Personal Trainer</p>
+								<br>
+								<p style="font-size: 1rem; color: whitesmoke; margin-top: 10px;">Certificate III Fitness Instructor</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-container reveal">
+						<div class="card" style="--clr: #f78300;">
+							<div class="imgBx">
+								<img src="images/specialities.png">
+							</div>
+							<div class="content">
+								<h2>Specialities</h2>
+								<p style="font-size: 1rem; color: whitesmoke;">Weight Loss</p>
+								<p style="font-size: 1rem; color: whitesmoke; margin-top: 10px;">Muscle Gain</p>
+								<p style="font-size: 1rem; color: whitesmoke; margin-top: 10px;">Bodybuilding</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-container reveal">
+						<div class="card" style="--clr: #f78300;">
+							<div class="imgBx">
+								<img src="images/focusarea.png">
+							</div>
+							<div class="content">
+								<h2>Focus Areas</h2>
+								<p style="font-size: 1rem; color: whitesmoke;">Body transformation</p>
+								<p style="font-size: 1rem; color: whitesmoke; margin-top: 10px;">Strength</p>
+							</div>
+						</div>
+					</div>
+					<!-- <p>Qualifications</p>
+					<p style="font-size: 1rem; color: whitesmoke;">Certificate IV Personal Trainer</p>
+					<br>
+					<p style="font-size: 1rem; color: whitesmoke; margin-top: 10px;">Certificate III Fitness Instructor</p>
+					<p>Specialities</p>
+					<br>
+					<p style="font-size: 1rem; color: whitesmoke;">Weight Loss</p>
+					<p style="font-size: 1rem; color: whitesmoke; margin-top: 10px;">Muscle Gain</p>
+					<p style="font-size: 1rem; color: whitesmoke; margin-top: 10px;">Bodybuilding</p>
+					<p>Focus Areas</p>
+					<p style="font-size: 1rem; color: whitesmoke;">Body transformation</p>
+					<p style="font-size: 1rem; color: whitesmoke; margin-top: 10px;">Strength</p> -->
+
+				</div>
+			</section>
+			<section id="booking">
+				<div class="hero-text">
+					<h1 style="margin-top: 125px;">💪Book me now 💪</h1>
+				</div>
+				<div class="bf-container">
+					<div class="bf-body">
+						<div class="bf-head">
+							<h1></h1>
+							<p></p>
+						</div>
+						<form action="https://formspree.io/f/mqkoryyn" method="POST">
+							<div class="bf-row">
+								<div class="bf-col-6">
+									<p>Your Name</p>
+									<input type="name" name="Full Name" id="fullname" placeholder="Your fullname">
+								</div>
+								<div class="bf-col-6">
+									<p>Email</p>
+									<input type="email" name="Email" id="email" placeholder="Email address">
+								</div>
+							</div>
+							<div class="bf-row">
+								<div class="bf-col-6">
+									<p>Select Date</p>
+									<input type="date" name="Date Selected" id="date">
+								</div>
+								<div class="bf-col-5">
+									<label style="font-size: 0.8rem;" for="time">From</label>
+									<input type="time" name="Time Started" id="time" min="09:00" max="18:00" required>
+								</div>
+								<div class="bf-col-5">
+									<label style="font-size: 0.8rem;" for="time">To</label>
+									<input type="time" name="Time Finished" id="time" min="09:00" max="18:00" required>
+								</div>	
+							</div>							
+							<div class="bf-row">
+								<div class="bf-col-12">
+									<p>Messages</p>
+									<textarea name="Messages" id="Messages" cols="3", rows="10" placeholder="Further messages"></textarea>
+								</div>
+							</div>
+							<div class="bf-row">
+								<div class="bf-col-3">
+									<span><input class="submit-btn" type="submit" value="Submit"></span>
+									<span></span>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>		
+		</div>
+	</div>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+	<script type="text/javascript">
+		var togglebtn = document.querySelector(".togglebtn");
+		var nav = document.querySelector(".navlinks");
+		var links = document.querySelector(".navlinks li");
+
+		togglebtn.addEventListener("click", function(){
+			this.classList.toggle("click");
+			nav.classList.toggle("open");
+		})
+	</script>
+</body>
+</html>
