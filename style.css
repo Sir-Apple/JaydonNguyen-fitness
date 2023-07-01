@@ -130,7 +130,7 @@ nav .navlinks li a{
 	opacity: 0;
 	animation-name: fadeIn;
 	animation-fill-mode: forwards;
-  	animation-duration: 2s;
+  	animation-duration: 3s;
 }
 
 
@@ -436,6 +436,13 @@ input, textarea, select{
 }
 
 #booking .bf-col-6{
+	width: 48%;
+}
+
+#booking .bf-col-4{
+	width: 48%;
+}
+#booking .bf-col-7{
 	width: 48%;
 }
 
